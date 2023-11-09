@@ -1,3 +1,46 @@
-.red {
-    background-color: red;
+.title {
+    text-align: center;
+}
+
+.containerStyles {
+  height: fit-content;
+  position: relative;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.imageStyles {
+  height: 280px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  cursor: pointer;
+  color: white;
+  background-color: transparent;
+  border: none;
+}
+
+.left {
+  left: 32px;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.right {
+  right: 32px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.icon {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
 }
