@@ -1,13 +1,14 @@
 import React, { useState } from "react";
+import './Accordion.css';
 
-const AccordionItem = ({ faq, onToggle }) => {
+const AccordionItem = ({ faq }) => {
   const [show, setShow] = useState(false);
 
   const { question, answer } = faq; //destructuring
   return (
     <li className="accordion_item">
       <button className="button" onClick={ () => setShow(!show)}>
-        {question}
+        <p>{question}</p>
         <span className="control">{show ? "-" : "+"}</span>
       </button>
 

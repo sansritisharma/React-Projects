@@ -1,16 +1,19 @@
 .title {
     text-align: center;
+    color: white;
+    font-size: large;
+    padding: 30px;
 }
 
 .containerStyles {
   height: fit-content;
   position: relative;
-  width: 500px;
+  width: 600px;
   margin: 0 auto;
 }
 
 .imageStyles {
-  height: 280px;
+  height: 380px;
   width: 100%;
   background-position: center;
   background-size: cover;
@@ -18,7 +21,7 @@
 
 .arrow {
   position: absolute;
-  top: 50%;
+  top: 55%;
   z-index: 1;
   cursor: pointer;
   color: white;
@@ -40,7 +43,7 @@
 
 .icon {
   border: solid white;
-  border-width: 0 3px 3px 0;
+  border-width: 0 4px 4px 0;
   display: inline-block;
-  padding: 3px;
+  padding: 6px;
 }

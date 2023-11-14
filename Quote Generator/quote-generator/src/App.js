@@ -22,10 +22,11 @@ function App() {
 
   return (
     <div className="App">
-      <button onClick={randomQuote}> GetQuote </button>
+      <button onClick={randomQuote}> Get Quote </button>
       <p>{quote.text}</p>
     </div>
   );
+ 
 }
 
 export default App;

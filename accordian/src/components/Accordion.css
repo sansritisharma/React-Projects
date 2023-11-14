@@ -1,0 +1,31 @@
+li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: flex;
+    width: 500px;
+    font-size: 16px;
+    background-color: bisque;
+    justify-content: space-between;
+}
+
+.answer_wrapper {
+    width: 500px;
+    padding: 10px;
+    background-color: rgb(232, 238, 237);
+}
+
+.answer {
+    text-align: left;
+}
+
+.control {
+    transform: translateY(2px);
+    font-size: 36px;
+}
+

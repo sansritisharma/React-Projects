@@ -27,7 +27,7 @@ function Carousel ({images}) {
             </div>
             <div className="slider-direction">
                 <button className="left arrow" onClick={handlePrevious}><i className="icon"></i></button>
-                <button className="right arrow" onClick={handlePrevious}><i className="icon"></i></button>
+                <button className="right arrow" onClick={handleNext}><i className="icon"></i></button>
             </div>
 
         </div>
